@@ -2,6 +2,8 @@
 
 :root {
 	font-size: 14px;
+	color: var(--color-neutral-very-dark-blue);
+
 	--color-neutral-white: hsl(0, 0%, 100%);
 	--color-primary-cream: hsl(30, 38%, 92%);
 	--color-primary-dark-cyan: hsl(158, 36%, 37%);
