@@ -64,6 +64,26 @@ img#product {
 	gap: 1rem;
 }
 
+.product-type {
+	font-size: 1rem;
+	letter-spacing: 0.3rem;
+	text-transform: uppercase;
+	font-family: var(--font-family-Montserrat);
+	font-weight: var(--font-weight-Montserrat-regular);
+}
+
+h3.product-name {
+	font-size: 2rem;
+	line-height: 2rem;
+	font-family: var(--font-family-Fraunces);
+}
+
+p.product-description {
+	font-size: 1rem;
+	line-height: 1.6rem;
+	font-family: var(--font-family-Montserrat);
+}
+
 /* views
 - Mobile: 375px
 - Desktop: 1440px
