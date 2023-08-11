@@ -52,6 +52,7 @@ img#product {
 	display: block;
 	width: 100%;
 	height: auto;
+	object-fit: cover;
 	border-radius: inherit;
 	border-bottom-left-radius: 0;
 	border-bottom-right-radius: 0;
