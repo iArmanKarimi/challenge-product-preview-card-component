@@ -131,7 +131,7 @@ button#add-to-cart::before {
 	content: url("./assets/icon-cart.svg");
 }
 button#add-to-cart:active:hover {
-	background-color: hsl(157, 36%, 29%);
+	background-color: hsl(158, 36%, 20%);
 }
 
 /* views
