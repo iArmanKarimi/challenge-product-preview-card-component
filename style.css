@@ -27,6 +27,13 @@ body {
 	justify-content: center;
 }
 
+.card {
+	background-color: var(--color-neutral-white);
+	width: 90vw;
+	border-radius: 8px;
+	display: flex;
+	flex-direction: column;
+}
 /* views
 - Mobile: 375px
 - Desktop: 1440px
