@@ -142,5 +142,23 @@ button#add-to-cart:active:hover {
 @media screen and (max-width: 375px) {
 }
 @media screen and (min-width: 375px) {
+	.card {
+		flex-direction: row;
+		width: 40rem;
+	}
+	.card > .content {
+		padding: 2.5rem;
+		justify-content: space-evenly;
+	}
+	picture#product {
+		height: 100%;
+		display: block;
+	}
+	img#product {
+		width: 20rem;
+		max-height: 100%;
+		border-radius: inherit;
+		border-top-right-radius: unset;
+		border-bottom-right-radius: unset;
 	}
 }
