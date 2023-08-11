@@ -55,6 +55,15 @@ img#product {
 	border-bottom-right-radius: 0;
 }
 
+.card > .content {
+	padding: 1.5rem;
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 1rem;
+}
+
 /* views
 - Mobile: 375px
 - Desktop: 1440px
