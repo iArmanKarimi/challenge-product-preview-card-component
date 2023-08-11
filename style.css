@@ -34,6 +34,24 @@ body {
 	display: flex;
 	flex-direction: column;
 }
+
+.image-container {
+	border-radius: inherit;
+}
+
+picture#product {
+	border-radius: inherit;
+}
+
+img#product {
+	display: block;
+	width: 100%;
+	height: auto;
+	border-radius: inherit;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
 /* views
 - Mobile: 375px
 - Desktop: 1440px
