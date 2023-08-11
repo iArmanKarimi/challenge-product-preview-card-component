@@ -45,6 +45,8 @@ body {
 }
 
 picture#product {
+	height: 100%;
+	display: block;
 	border-radius: inherit;
 }
 
@@ -139,9 +141,7 @@ button#add-to-cart:active:hover {
 - Mobile: 375px
 - Desktop: 1440px
 */
-@media screen and (max-width: 375px) {
-}
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 376px) {
 	.card {
 		flex-direction: row;
 		width: 40rem;
@@ -149,10 +149,6 @@ button#add-to-cart:active:hover {
 	.card > .content {
 		padding: 2.5rem;
 		justify-content: space-evenly;
-	}
-	picture#product {
-		height: 100%;
-		display: block;
 	}
 	img#product {
 		width: 20rem;
