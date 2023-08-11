@@ -4,10 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Product preview card</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="card">
-    <img id="product" alt="Perfume">
+    <picture id="product">
+			<source media="(max-width: 376px)" srcset="./assets/image-product-mobile.jpg">
+			<source media="(min-width: 376px)" srcset="./assets/image-product-desktop.jpg">
+			<img alt="perfume">
+		</picture>
     <p class="product-type">perfume</p>
     <h3>Gabreille Essence Eau De Parfume</h3>
     <p>
