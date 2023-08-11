@@ -70,6 +70,7 @@ img#product {
 	font-size: 1rem;
 	letter-spacing: 0.3rem;
 	text-transform: uppercase;
+	color: var(--color-neutral-dark-grayish-blue);
 	font-family: var(--font-family-Montserrat);
 	font-weight: var(--font-weight-Montserrat-regular);
 }
@@ -78,11 +79,17 @@ h3.product-name {
 	font-size: 2rem;
 	line-height: 2rem;
 	font-family: var(--font-family-Fraunces);
+	font-weight: var(--font-weight-Fraunces-bold);
 }
 
 p.product-description {
 	font-size: 1rem;
 	line-height: 1.6rem;
+	color: var(--color-neutral-dark-grayish-blue);
+	font-family: var(--font-family-Montserrat);
+	font-weight: var(--font-weight-Montserrat-regular);
+}
+
 	font-family: var(--font-family-Montserrat);
 }
 
